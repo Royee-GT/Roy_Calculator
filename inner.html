@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roy簡易計算機</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container p-5 my-5 border border-secondary">
+    <h2 class="mb-5">簡易計算機</h2>
+    <div class="input-group input-group-lg">
+    <input type="text" class="form-control mb-3 text-end py-3 fs-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="monitor" placeholder="0" disabled>
+    </div>
+    <div class="input-group input-group-sm">
+    <input type="text" class="form-control mb-5 text-end py-1 fs-5" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="sub-monitor" placeholder="" disabled>
+    </div>
+    <div class="row row-cols-4 g-3" id="calculator">
+      <button class="clean col btn btn-light btn-outline-secondary" id="clean">AC</button>
+      <button class="col btn btn-light btn-outline-secondary ">+/-</button>
+      <button class="col btn btn-light btn-outline-secondary ">back</button>
+      <button class="calculate col btn btn-light btn-outline-secondary ">/</button>
+      <button class="number col btn btn-light btn-outline-secondary ">7</button>
+      <button class="number col btn btn-light btn-outline-secondary ">8</button>
+      <button class="number col btn btn-light btn-outline-secondary ">9</button>
+      <button class="calculate col btn btn-light btn-outline-secondary ">*</button>
+      <button class="number col btn btn-light btn-outline-secondary ">4</button>
+      <button class="number col btn btn-light btn-outline-secondary ">5</button>
+      <button class="number col btn btn-light btn-outline-secondary ">6</button>
+      <button class="calculate col btn btn-light btn-outline-secondary ">-</button>
+      <button class="number col btn btn-light btn-outline-secondary ">1</button>
+      <button class="number col btn btn-light btn-outline-secondary ">2</button>
+      <button class="number col btn btn-light btn-outline-secondary ">3</button>
+      <button class="calculate col btn btn-light btn-outline-secondary ">+</button>
+      <button class="number col-6 btn btn-light btn-outline-secondary " id="zero">0</button>
+      <button class="col btn btn-light btn-outline-secondary " id="dot">.</button>
+      <button class="calculate col btn btn-secondary">=</button>
+    </div>
+</div>
+
+
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
